@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="111.652">
+    <testcase classname="To check the successful visit to inis visa status page" name="successful visit to inis webpage" time="20.102">
+        <system-out><![CDATA[Given browser is open.......................................................passed
+Then user enters "inis check irish visa"....................................passed
+And hits the enter..........................................................passed
+Then user will be navigated to search results...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the successful visit to inis visa status page" name="Users selects indian nationality" time="28.471">
+        <system-out><![CDATA[Given user is on the inis visa required page................................passed
+Then user selects nationality...............................................passed
+And hits on select button...................................................passed
+Then user is navigated to visa-required page................................passed
+And when user select more than three months.................................passed
+Then user is navigated to study page........................................passed
+And when user clicks on the study link......................................passed
+Then user is navigated to visa long study page..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the successful visit to inis visa status page" name="Users selects France nationality" time="16.868">
+        <system-out><![CDATA[Given user is on the website................................................passed
+When user selects nationality from drop down list...........................passed
+And user hits select button.................................................passed
+Then user is navigated to visa not required page............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To check the successful visit to inis visa status page" name="User selects canadian nationality" time="45.565">
+        <system-out><![CDATA[Given User has visited inis website.........................................passed
+When user selects his nationality from drop down list.......................passed
+And hits on the select button...............................................passed
+Then Users are navigated to visa requiremnt page............................passed
+And when user select more than 3 months option..............................passed
+Then users are navigated to study page......................................passed
+And when users clicks on the study link.....................................passed
+Then Users are navigated to visa not required page..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
